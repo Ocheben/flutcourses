@@ -7,7 +7,7 @@ $_SESSION["course"] = $_POST['course'];
 $curl = curl_init();
 
 $customer_email = $_POST['email'];
-$amount = 3000;  
+$amount = 5000;  
 $currency = "NGN";
 $txref = md5(uniqid(rand(), true)); // ensure you generate unique references per transaction.
 $PBFPubKey = "FLWPUBK-7e6dd33bff4a303d3c2b30ddb2c8bc4d-X"; // get your public key from the dashboard.

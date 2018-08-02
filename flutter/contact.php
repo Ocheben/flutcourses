@@ -41,6 +41,26 @@ session_start();
       $url = "https://www.youtube.com/playlist?list=PL303D52E352C0B7D9&feature=plcp";
     }
  
+    if ($comments == "film") {
+      $url = "https://www.youtube.com/playlist?list=PL303D52E352C0B7D9&feature=plcp";
+    }
+ 
+    if ($comments == "lang") {
+      $url = "https://www.youtube.com/playlist?list=PL303D52E352C0B7D9&feature=plcp";
+    }
+ 
+    if ($comments == "law") {
+      $url = "https://www.youtube.com/playlist?list=PL303D52E352C0B7D9&feature=plcp";
+    }
+ 
+    if ($comments == "lit") {
+      $url = "https://www.youtube.com/playlist?list=PL303D52E352C0B7D9&feature=plcp";
+    }
+ 
+    if ($comments == "phil") {
+      $url = "https://www.youtube.com/playlist?list=PL303D52E352C0B7D9&feature=plcp";
+    }
+ 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
